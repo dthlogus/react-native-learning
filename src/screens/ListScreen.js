@@ -13,7 +13,7 @@ const ListScreen = () => {
 
     return (
         <FlatList 
-            keyExtractor={(friend) => {friend.name}}
+            keyExtractor={(friend) => {friend.age}}
             data={friends}        
             renderItem={({item}) => {
                 return (
